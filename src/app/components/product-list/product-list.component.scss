@@ -1,0 +1,25 @@
+.products-wrapper {
+  display: block;
+  width: 100%;
+  text-align: center;
+  .product-card {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: left;
+  }
+  @media  only screen and (min-width: 360px) {
+    .product-card {
+      width: 95%;
+    }
+  }
+  @media  only screen and (min-width: 557px) {
+    .product-card {
+      width: 46%;
+    }
+  }
+  @media  only screen and (min-width: 900px) {
+    .product-card {
+      width: 30%;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<div class="products-wrapper">
+  <div class="product-card" *ngFor="let product of productList">
+    <app-product-card [product]="product" (cartItem)="addCartItem($event)"></app-product-card>
+  </div>
+</div>

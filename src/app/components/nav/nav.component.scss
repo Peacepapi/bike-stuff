@@ -1,0 +1,10 @@
+.navbar {
+    display: inline-block;
+    width: 100%;
+    .nav-btn:first-child {
+        float: left;
+    }
+    .nav-btn:last-child {
+        float: right;
+    }
+}

@@ -1,0 +1,19 @@
+.mat-card {
+    display: inline-block;
+    .card-info {
+        display: inline-block;
+        .mat-card-subtitle:first-child {
+            float: right;
+        }
+    }
+    input[type=text] {
+        width: 50px;
+        border: 1px black solid;
+    }
+    .action-container {
+        width: 100%;
+        button {
+            float:right;
+        }
+    }
+}

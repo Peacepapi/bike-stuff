@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <h2>You've successfully purchased these items:</h2>
+    <mat-list-item *ngFor="let item of purchased">
+      <p>{{ item.product.name }}</p>
+      <p>{{ item.product.price | currency}}</p>
+      <p>{{ item.quantity }}</p>
+    </mat-list-item>
+    <mat-divider></mat-divider>    
+    <h4>Subtotal: {{ subTotal | currency }}</h4>
+</div>
