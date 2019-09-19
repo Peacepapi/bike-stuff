@@ -10,8 +10,8 @@ import { CartService } from 'src/app/services/cart.service';
 })
 export class ConfirmationComponent implements OnInit {
 
-  private purchased: Array<CartItem>;
-  private subTotal: number;
+  public purchased: Array<CartItem>;
+  public subTotal: number;
   
   constructor(
     private route: ActivatedRoute,

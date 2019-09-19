@@ -10,8 +10,8 @@ import { CartService } from 'src/app/services/cart.service';
   styleUrls: ['./product-list.component.scss']
 })
 export class ProductListComponent implements OnInit {
-  private productList: Array<Product>;
-  private cart: Array<CartItem>;
+  public productList: Array<Product>;
+  public cart: Array<CartItem>;
 
   constructor(
     private productsService: ProductsService,

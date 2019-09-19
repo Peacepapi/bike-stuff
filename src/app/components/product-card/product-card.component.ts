@@ -10,13 +10,13 @@ import { ValidatorService } from 'src/app/services/validator.service';
 })
 export class ProductCardComponent implements OnInit {
 
-  private isValidQty: boolean = true;
+  public isValidQty: boolean = true;
 
   @Input()
-  private product: Product;
+  public product: Product;
   
   @Output()
-  private cartItem = new EventEmitter<CartItem>();
+  public cartItem = new EventEmitter<CartItem>();
 
   constructor(private validatorService: ValidatorService) { }
 

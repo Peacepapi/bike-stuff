@@ -10,11 +10,11 @@ import { Router } from '@angular/router';
   styleUrls: ['./cart.component.scss']
 })
 export class CartComponent implements OnInit {
-  private cart: Array<CartItem>;
-  private subTotal: number = 0;
-  private isValidQty: boolean = true;
-  private hasBike: boolean = true;
-  private message: string;
+  public cart: Array<CartItem>;
+  public subTotal: number = 0;
+  public isValidQty: boolean = true;
+  public hasBike: boolean = true;
+  public message: string;
 
   constructor(
     private cartService: CartService,
